@@ -1,0 +1,65 @@
+.experiences {
+    padding: 100px 20px;
+    background-color: #f5f1e8;
+    position: relative;
+    text-align: center;
+  }
+  
+  .experiences-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: #111;
+    border-bottom: 3px solid #f5f1e8;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  .experiences-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .experience-card {
+    background-color: white;
+    border: 1px solid #111;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+    
+  .experience-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-bottom: 3px solid #f5f1e8;
+    padding-bottom: 0.5rem;
+  }
+  
+  .experience-company {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+  }
+  
+  .experience-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .experience-details {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.5;
+    text-align: left;
+  }
+  

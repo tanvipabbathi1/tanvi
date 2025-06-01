@@ -1,0 +1,30 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+  background-color: #f5f1e8; /* match homepage bg */
+}
+
+.about-box {
+  border: 1px solid #111;
+  border-radius: 12px;
+  background-color: white;
+  max-width: 900px;
+  width: 100%;
+  padding: 3rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.about-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.about-box p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
